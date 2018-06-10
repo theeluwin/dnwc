@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name disable-naver-webtoon-comment
 // @namespace http://theeluwin.kr/dnwc
-// @version 0.1.0
+// @version 0.1.1
 // @description disalbe naver webtoon comment
 // @author theeluwin
 // @match http://comic.naver.com/webtoon/*
 // @downloadURL https://rawgit.com/theeluwin/dnwc/master/dnwc.user.js
 // @copyright 2018+, theeluwin
+// @run-at document-end
 // @grant none
 // ==/UserScript==
 
@@ -20,13 +21,6 @@ function dnwc() {
 }
 
 (function(){
-    if(typeof window == 'undefined') {
-        module.exports = dnwc;
-    } else {
-        if (document.readyState === 'interactive' || document.readyState === 'complete') {
-            dnwc();
-        } else {
-            window.addEventListener('DOMContentLoaded', dnwc, true);
-        }
-    }
+    'use strict';
+    dnwc();
 })();
