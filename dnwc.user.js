@@ -3,7 +3,9 @@
 // @namespace http://theeluwin.kr/dnwc
 // @version 0.1.0
 // @description disalbe naver webtoon comment
+// @author theeluwin
 // @match http://comic.naver.com/webtoon/*
+// @downloadURL https://rawgit.com/theeluwin/dnwc/master/dnwc.user.js
 // @copyright 2018+, theeluwin
 // @grant none
 // ==/UserScript==
