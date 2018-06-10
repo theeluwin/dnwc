@@ -1,0 +1,30 @@
+{
+  "name": "dnwc",
+  "description": "disable naver webtoon comment",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jamie Seol",
+    "url": "https://github.com/theeluwin"
+  },
+  "contributors": [
+    {
+      "name": "JongChan Choi",
+      "url": "https://github.com/disjukr"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theeluwin/dnwc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theeluwin/dnwc/issues"
+  },
+  "license": "MIT",
+  "main": "dnwc.user.js",
+  "keywords": [
+    "dnwc",
+    "naver",
+    "webtoon"
+  ],
+  "private": true
+}
