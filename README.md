@@ -17,4 +17,4 @@
 
 UserScript 플러그인이 있다면, 다음의 링크를 클릭해서 dnwc를 설치할 수 있습니다.
 
-* [스크립트 설치](https://cdn.rawgit.com/theeluwin/dnwc/0.1.0/dnwc.user.js)
+* [스크립트 설치](https://cdn.rawgit.com/theeluwin/dnwc/50fde236/dnwc.user.js)
