@@ -19,6 +19,6 @@ UserScript 플러그인이 있다면, 다음의 링크를 클릭해서 dnwc를 �
 
 * [스크립트 설치](https://rawgit.com/theeluwin/dnwc/master/dnwc.user.js)
 
-## 으어
+## 옵션
 
-댓글이 굳이 보고 싶다면 (덴마라던가) URL 맨 뒤에 `&dnwc=false`를 붙이면 됩니다.
+댓글이 굳이 보고 싶다면, URL 맨 뒤에 `&dnwc=false`를 붙이면 됩니다.
