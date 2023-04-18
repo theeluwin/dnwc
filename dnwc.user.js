@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name disable-naver-webtoon-comment
-// @namespace https://theeluwin.github.io
+// @namespace https://github.com/theeluwin/dnwc
 // @version 0.1.4
 // @description disable naver webtoon comment
 // @author theeluwin
 // @match https://comic.naver.com/*
-// @downloadURL https://rawgit.com/theeluwin/dnwc/master/dnwc.user.js
+// @downloadURL https://rawgit.com/theeluwin/dnwc/main/dnwc.user.js
+// @updateURL https://rawgit.com/theeluwin/dnwc/main/dnwc.user.js
 // @copyright 2023+, theeluwin
 // @run-at document-end
 // @grant none
