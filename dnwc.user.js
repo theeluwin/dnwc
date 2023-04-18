@@ -1,33 +1,26 @@
 // ==UserScript==
 // @name disable-naver-webtoon-comment
 // @namespace https://theeluwin.github.io
-// @version 0.1.3
+// @version 0.1.4
 // @description disable naver webtoon comment
 // @author theeluwin
 // @match https://comic.naver.com/*
 // @downloadURL https://rawgit.com/theeluwin/dnwc/master/dnwc.user.js
-// @copyright 2018+, theeluwin
+// @copyright 2023+, theeluwin
 // @run-at document-end
 // @grant none
 // ==/UserScript==
 
-function dnwc() {
-  if(window.location.search.indexOf('dnwc=false') > -1) {
-      return
-  }
-  if(window.location.hostname === 'comic.naver.com') {
-    let iframe = document.getElementById("commentIframe")
-    if(iframe !== null) {
-        iframe.style.display = 'none'
-    }
-    let new_comics = document.getElementsByClassName("new_comic")
-    for(let i = 0; i < new_comics.length; i++) {
-      new_comics[i].style.border = 'none'
+function dncw() {
+  if(window.location.search.indexOf('dnwc=false') < 0 && window.location.hostname === 'comic.naver.com') {
+    let box = document.getElementById("cbox_module")
+    if(box !== null) {
+      box.style.display = 'none'
     }
   }
 }
 
 (function(){
   'use strict'
-  dnwc()
+  setTimeout(dncw, 1000)
 })()
